@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    vertical-align: middle;
+    background-color: rgb(153, 134, 140);
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    display: flex;
+    font-family:monospace
+}
+
+.container{
+    background-color: rgba(255,255,255,0.3);
+    padding: 20px 30px;
+    text-align: center;
+    border: 10px 10px rgba(0,0,0,0.5);
+    box-shadow: -5px 5px 5px rgba(0,0,0,0.6);
+    border-radius: 2%;
+    width: 60%;
+    margin: 10px;
+    max-width: 450px;
+    font-size: 18px;
+    font-weight: 10%;
+}
+
+.input{
+    border-color: rgba(255,255,255,0.4);
+    height: 53px;
+    background-color: rgba(255,255,255,0.3);
+    padding: 1px 42px;
+    width: 300px;
+    max-width: 70%;
+    border-radius: 5%;
+    color: rgb(138, 117, 117);
+    font-size: 16px;
+}
+.heading{
+    font-size: 28;
+}
+
+.meaning-container{
+    display:none;
+    size: 500px;
+    min-height: 200px;
+    max-height: 200px;
+}
+
+p{
+    padding:5px;
+    color: rgb(0, 0, 0);
+    font-weight: 25000;
+}
+
+
+.extrainfo{
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 20px;
+    color: brown;
+}
+
+.next-def{
+    display: none;
+    background-color: rgba(138, 117, 117, 0.5);
+    padding: 15px;
+    font-family: monospace;
+    border-radius: 5%;
+    box-shadow: 5 5px 5px rgba(0,0,0,0.5);
+    
+}
+.next-def:hover{
+    cursor: pointer;
+    font-weight: 400;
+    background-color: rgba(138, 117, 117, 0.8);
+}
